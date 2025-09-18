@@ -1,0 +1,44 @@
+body{
+    font-family: Verdana;
+    font-size: 1em;
+    margin: 0px;
+    background-color: rgb(176, 231, 176);
+    
+}
+main{
+    margin-left : 20px;
+    margin-right : 20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    
+     text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(15, 230, 104);
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:black;
+    text-decoration:none ;
+    padding:15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(100, 99, 99);
+}
+.navbar li{
+    float: left;
+}
+img{
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+            }
