@@ -1,10 +1,11 @@
 body{
-    font-family: Verdana;
-    font-size: 1em;
+    font-family: "Lucida Console";
+    font-size: 1.3em;
     margin: 0px;
     background-color: rgb(176, 231, 176);
     
 }
+
 main{
     margin-left : 20px;
     margin-right : 20px;
@@ -42,3 +43,112 @@ img{
                 margin-right: auto;
                 margin-left: auto;
             }
+
+
+.img_side{
+    float: left;
+}
+
+.gallery{
+    
+    display: inline-block;
+   
+    margin : 5px;
+    width :350px;
+
+}
+.gallery .galleryWords{
+    padding: 10px;
+    text-align: center;
+}
+.gallery img{
+    height: auto;
+    width:  100%;
+}
+.gallery:hover{
+    border: 1px solid green;
+}
+
+
+
+
+.slider{
+    position:  relative ;
+    width :1000px;
+    height: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    display: none;
+}
+
+
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}
+
+
+
+
+
+
+.sliderText{
+    position:  relative ;
+    margin : 0px;
+    width :1000px;
+    height: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.sliderText img{
+    width: 80%;
+    display: none;
+}
+
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    
+    animation-duration: 1.5s;
+}
+
+
+
+.sliderText p{
+    width: 100%;
+    display: none;
+    font-size: 1.5rem;
+}
+p.displayWord{
+     display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.sliderText button{
+    position: absolute;
+    top: 20%;
+    
+    transform: translateY(-40%);
+    font-size: 2rem;
+    padding: 5px 10px;
+    background-color: hsla(140, 91%, 5%, 0.5);
+    color: rgb(74, 236, 10);
+    border: none;
+    cursor: pointer;
+}
+.prevB{
+    left: 0;
+}
+.nextB{
+    right: 0;
+}
+

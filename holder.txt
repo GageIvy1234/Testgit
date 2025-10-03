@@ -1,0 +1,9 @@
+the slider holder
+ <div class="slider">
+        <div class="slides">
+            <img class="slide" src="Nether/Wither.webp" alt="Image #1">
+            <img class="slide" src="Nether/Strider.avif" alt="Image #2">
+            <img class="slide" src="Nether/PigGuy.jpg" alt="Image #3">
+        </div>
+      
+    </div>
