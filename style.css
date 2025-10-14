@@ -10,7 +10,7 @@ h1{
 }
 
 footer{
-     background-color: rgb(0, 53, 22);
+     background-color: rgb(15, 230, 104);
 }
 main{
     margin-left : 20px;
@@ -156,5 +156,12 @@ p.displayWord{
 }
 .nextB{
     right: 0;
+}
+
+
+
+
+.icons{
+    text-align: center;
 }
 
